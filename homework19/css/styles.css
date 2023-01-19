@@ -1,0 +1,24 @@
+#body {
+  text-align: center;
+}
+#slider {
+  display: flex;
+  align-items: center;
+  /* /* width: 900px; */
+  height: 400px;
+}
+#imgSlider {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+.button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+}
+#arrow {
+  height: 150px;
+  width: 100%;
+}
