@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <div class="hidden modal" id="modal">
+        <div class="content">
+            <button type="button" class="close-button">&#215;</button>
+            <h3 class="title">are you sure it needs to be removed?</h3>
+            <div class="button_box">
+                <button class="button" id="yes_delete" type="button">yes</button>
+                <button class="button" id="no_delete" type="button">no</button>
+            </div>
+        </div>
+    </div>
+    <form name="nameForm" id="form" class="hidden">
+        <fieldset class="fieldset">
+            <legend id="legend"></legend>
+            <p id="name"><input type="text" name="name" placeholder="name" ></p>
+            <p id="password"><input type="password" name="password" placeholder="password"></p>
+            <p id="age"><input type="number" name="age" placeholder="age"></p>
+            <p id="email"><input type="email" name="email" placeholder="mail"></p>
+            <p id="tel"><input type="tel" name="tel" placeholder="0xxxxxxxxx"></p>
+            <p id="card"><input type="text" name="card" placeholder="xxxx-xxxx-xxxx-xxxx"></p>
+        </fieldset>
+        <button id="buttonSave" type="button" class="button">Save</button>
+    </form>
+    
+    <div id="main"></div>
+    <script src=".//js/helpers.js"></script>
+    <script src=".//js/users.js"></script>
+    <script src="./js/verification.js"></script>
+    <script src=".//js/app.js"></script>
+</body>
+</html>
