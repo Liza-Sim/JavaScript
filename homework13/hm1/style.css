@@ -1,0 +1,8 @@
+#body {
+  display: flex;
+}
+
+#newText {
+  padding-left: 10px;
+  color: blue;
+}
