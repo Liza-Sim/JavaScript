@@ -1,0 +1,15 @@
+.body {
+  width: 100%;
+}
+.fieldset {
+  width: 40%;
+  border-color: rgb(183, 183, 231);
+  border-radius: 5px;
+}
+#button {
+  margin-top: 15px;
+  width: 150px;
+  height: 30px;
+  background-color: rgb(161, 161, 207);
+  border-radius: 5px;
+}
