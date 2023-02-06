@@ -1,0 +1,30 @@
+{
+  "name": "homework20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "axios": "^1.2.1",
+    "gulp-css-minify": "^0.9.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "eslint": "^8.22.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-babel-minify": "^0.5.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint-new": "^1.7.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
