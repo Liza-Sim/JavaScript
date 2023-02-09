@@ -3,12 +3,12 @@ import "./ButtonNavigator.css"
 
 
 class ButtonNavigator extends Component {
-  ShowContent = function () {
+  showContent = function () {
     console.log('information')
   }
   render() {
     return (
-      <button type="button" data-index = {this.props.id} className="buttonNav" onClick={this.ShowContent}>{ this.props.value} </button>
+      <button type="button" data-index={this.props.id} className="buttonNav" onClick={this.showContent}>{ this.props.value} </button>
     )
   }
 }

@@ -1,6 +1,6 @@
 import React,  { Component } from "react";
 import './Navigation.css';
-import ButtonNavigation from './ButtonNavigator';
+import ButtonNavigation from '../ButtonNavigator/ButtonNavigator';
 
 class Navigation extends Component {
   showParticipants = () => {

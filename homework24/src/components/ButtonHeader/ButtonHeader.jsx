@@ -6,7 +6,7 @@ import './ButtonHeader.css';
 class ButtonHeader extends Component {
   render() {
     return (
-        <button type="button" className="button" onClick={this.props.callback} >{this.props.value}</button>
+        <button type="button" className="button" onClick={this.props.callback}>{this.props.value}</button>
     )
   }
 }
